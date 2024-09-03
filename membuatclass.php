@@ -40,13 +40,10 @@ class Kerucut
     }
 }
 
-// Membuat objek nasi_tumpeng dari class Kerucut
 $nasi_tumpeng = new Kerucut();
 
-// Menghitung volume nasi tumpeng dengan jari-jari 4 cm dan tinggi 10 cm
 $volume_nasi_tumpeng = $nasi_tumpeng->volume(4, 10);
 
-// Menampilkan hasil volume nasi tumpeng
 echo "Volume nasi tumpeng: " . $volume_nasi_tumpeng . " cm³";
 
 ?>
