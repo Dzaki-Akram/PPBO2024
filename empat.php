@@ -83,14 +83,14 @@ require_once 'Book.php';
 //  }
  
  
- $author = new Author("karim almurim", "Penulis berdarah jepang");
- $publisher = new Publisher("Penerbit jepang", "Jl.Shinzous no.10, Tokyo", "00-233-32-32");
+ $author = new Author("Joko Widodo", "Presiden Indonesia");
+ $publisher = new Publisher("Penerbit Jakarta", "Jl.Adi Karya", "002-000");
  
- $book = new Book(123456, "Belajar berjalan", "Tata cara bagaimana kita dapat berjalan", "health", "Mandarin language", 100, $author, $publisher);
+ $book = new Book(123456, "Gymnastic", "How to do basic Pushup", "health", "English Language", 100, $author, $publisher);
  
  echo $book->showAll();
  
- $publisher->setPhone("+638048474792");
+ $publisher->setPhone("+62009832932090");
  echo "Updated Phone: " . $publisher->getPhone() . "\n";
  
  $bookDetail = $book->detail(22222);
