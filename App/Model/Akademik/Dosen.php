@@ -3,9 +3,9 @@
 namespace App\Model\Akademik;
 
 class Dosen extends Pegawai{
-    public string $nidn;
-
-    public function __construct(int $nip, string $nama, string $alamat, int $no_hp, string $nidn){
+    private $nidn;
+    
+    public function __construct(int $nip, string $nama, int $no_hp, string$alamat, string $nidn) {
         parent::__construct($nip, $nama, $alamat, $no_hp);
         $this->nidn = $nidn;
     }
