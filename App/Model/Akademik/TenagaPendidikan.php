@@ -1,6 +1,7 @@
 <?php
 
-namespace App\Admin;
+namespace App\Model\Akademik;
+
 class TenagaKependidikan extends Pegawai{
     public int $gaji_pokok;
 
